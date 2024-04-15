@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="samsamsun789@gmail.com"
+global.email ="Eddie"
 global.location="Lahore,Pakistan."
 global.mongodb= process.env.MONGODB_URI || ""
 
@@ -27,7 +27,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "254705677688" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254705677688";
 
 
 
@@ -36,9 +36,9 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
 global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
+global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
 
-global.warncount = process.env.WARN_COUNT || 3,
+global.warncount = process.env.WARN_COUNT || 0,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES|| "text",
@@ -48,14 +48,14 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "null";
 
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
@@ -73,10 +73,10 @@ module.exports = {
   VERSION : process.env.VERSION || "V.1.2.9",
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Suhail-MD",
+  author : process.env.PACK_AUTHER|| "Yego",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "Yego254",
+  ownername:process.env.OWNER_NAME|| "It's Yego",
 
 
   errorChat : process.env.ERROR_CHAT || "",
